@@ -1,0 +1,103 @@
+.intro {
+  margin-top: 120px;
+  text-align: center;
+  color: blueviolet;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.container {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.nav-top {
+  margin-left: 30px !important;
+  font-size: 40px;
+}
+
+.fa-paw {
+  padding-right: 10px;
+  color: blueviolet;
+}
+
+.main-footer-img {
+  display: inline-block;
+  margin-bottom: -50px;
+}
+
+.footer {
+  font-size: 40px;
+  margin-top: -20px;
+}
+
+.contacts {
+  margin-top: 70px;
+}
+
+.nav-footer {
+  margin-top: 20px;
+  background-color: #e6e3e3 !important;
+}
+
+.fa-brands {
+  padding-right: 10px;
+}
+.icons {
+  padding: 20px;
+  margin-top: -20px;
+  color: #8a2be2;
+  font-size: 30px;
+}
+
+.icon:hover {
+  color: #5c0fa3;
+}
+
+.btn:hover {
+  background-color: #8a2be2 !important;
+  border: #8a2be2 !important;
+}
+
+.card {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 767.99px) {
+  .card {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main-footer-img {
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-bottom: -80px;
+  }
+
+  .contacts {
+    margin-left: 70px;
+  }
+
+  .fa-facebook {
+    margin-left: 70px;
+  }
+
+  .icons {
+    margin-bottom: -50px;
+  }
+}

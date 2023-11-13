@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pawfect Match</title>
+
+    <!-- bootstap css and js -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- link css file -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/d23211c36c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar fixed-top bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand nav-top" href="#"
+          ><i class="fa-solid fa-paw"></i><small>Pawfect Match</small></a
+        >
+      </div>
+    </nav>
+
+    <!-- Introduction -->
+    <div class="intro">
+      <h2><h1>Pawfect Match</h1></h2>
+      <h3 id="heading">Where you find your perfect pet</h3>
+      <br />
+      <br />
+      <button
+        type="button"
+        id="perfect-match-button"
+        class="btn btn-primary p-3"
+      >
+        Click to find your perfect match
+      </button>
+    </div>
+
+    <!-- //container for pets profiles -->
+    <div class="container">
+      <div class="row"></div>
+      <div id="matched-pet"></div>
+    </div>
+
+    <!-- footer -->
+    <nav class="navbar nav-footer bg-body-tertiary">
+      <div class="container footer">
+        <div class="row">
+          <div class="col">
+            <img src="images/main.png" class="main-footer-img" alt="..." />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="contacts">Get in touch</div>
+            <div class="icons">
+              <i class="fa-brands icon fa-facebook"></i
+              ><i class="fa-brands icon fa-square-instagram"></i
+              ><i class="fa-brands icon fa-square-whatsapp"></i
+              ><i class="fa-brands icon fa-linkedin"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- link js file -->
+    <script src="pets.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
